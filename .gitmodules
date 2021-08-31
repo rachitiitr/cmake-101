@@ -1,3 +1,6 @@
 [submodule "src/vendor/nlohmann"]
 	path = src/vendor/nlohmann
 	url = https://github.com/nlohmann/json.git
+[submodule "src/vendor/protobuf"]
+	path = src/vendor/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
