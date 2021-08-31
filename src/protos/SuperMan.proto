@@ -1,0 +1,13 @@
+syntax = "proto2";
+package tutorial;
+import "Person.proto";
+
+enum Power {
+    FLY = 50;
+    HULK = 10;
+    SWIM = 1;
+}
+
+extend Person {
+    repeated Power powers = 100;
+}
